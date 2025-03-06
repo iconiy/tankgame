@@ -23,13 +23,11 @@ def rules():
         text_rules()
     else:
         input('Press Enter to continue...')
-        game()
 
 def game():
-    t = tank.Tank(100, 25, 10, 15, 2)
+    t = tank.Tank(100, 25, 10, 15, 2) # sets starting stats for tank
+    t.siege()
     t.siege()
 
 if __name__ == '__main__':
     main()
-
-print('hello world')
