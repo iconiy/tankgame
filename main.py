@@ -1,5 +1,5 @@
 import random
-# import tank
+import tank as tank
 # import infantry
 
 
@@ -23,10 +23,11 @@ def rules():
         text_rules()
     else:
         input('Press Enter to continue...')
-        main()
+        game()
 
 def game():
-    pass
+    t = tank.Tank(100, 25, 10, 15, 2)
+    t.siege()
 
 if __name__ == '__main__':
     main()

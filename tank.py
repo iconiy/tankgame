@@ -11,10 +11,11 @@ class Tank:
         pass
 
     def siege(self):
-        Tank.range =+ 1
-        Tank.attack =+ 5
-        Tank.movement = 0
+        self.range += 1
+        self.attack += 5
+        self.movement = 0
         print('The tank has now in siege mode! ')
+        print(self.range, self.attack, self.movement)
 
     def hull_break(self):
         Tank.armor =- 2
