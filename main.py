@@ -26,7 +26,8 @@ def rules():
 
 def game():
     t = tank.Tank('Panzar') # sets starting stats for tank
-    t.siege()
+    # t.siege()
+    t.attack()
     t.stats()
 
 if __name__ == '__main__':
