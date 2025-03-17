@@ -25,9 +25,9 @@ def rules():
         input('Press Enter to continue...')
 
 def game():
-    t = tank.Tank(100, 25, 10, 15, 2) # sets starting stats for tank
+    t = tank.Tank('Panzar') # sets starting stats for tank
     t.siege()
-    t.siege()
+    t.stats()
 
 if __name__ == '__main__':
     main()
